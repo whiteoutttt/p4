@@ -15,7 +15,7 @@ for i in range(len(lines)):
         if max < int(currentline[x]):
             max = int(currentline[x])
         average = sum / len(currentline)
-    output.write(f"{sum}\t{average:.2f}\t{max}\t{min}\n")
+    output.write(f"{sum}\t{average:.3f}\t{max}\t{min}\n")
     output.close()
 
 
